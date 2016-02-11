@@ -24,8 +24,6 @@ $age = 5;
 if($age <= 6){
 
 
-
-
   //it is true
   echo " yes you can sleep at lunchtime";
 
@@ -33,5 +31,28 @@ if($age <= 6){
   //it is false
   echo " no, you are at school";
   }
+
+   ?>
+
+<br>
+
+<?php
+
+  // loop
+
+ /*for($i = 0; $i < $age; $i++){
+
+//if condition is true
+echo $i;
+
+}*/
+
+
+   ?>
+   <br>
+
+<?php
+
+echo "Today is ". date('l jS \of F Y h:i:s A');
 
    ?>
